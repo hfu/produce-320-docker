@@ -1,5 +1,16 @@
 {
-  modifyPath: /export/produce-220-modify-js/modify.js
-  srcPath: /export/pullman/pull.rfc8142
-  mbtilesDir: /export/produce-220/mbtiles
+  z: 6
+  minx: 55
+  miny: 25
+  maxx: 56
+  maxy: 25
+  exportConfigPath: /export/produce-320/osmium-export-config.json
+  modifyPath: /export/produce-320/modify.js
+  pbfDirPath: pbf
+  mbtilesDirPath: mbtiles
+  concurrent: 2
+  planetPath: /export/produce-320/welt/planet-190318.osm.pbf
+  skipMiniPlanet: false
+  skipExistingPbf: false
+  skipExistingMbtiles: false
 }
